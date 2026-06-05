@@ -31,7 +31,6 @@ export const about = {
   stats: [
     { value: "8",      label: "Projects shipped"       },
     { value: "3.90",   label: "GPA at Fasilkom UI"      },
-    { value: "1,600+", label: "Data entities migrated" },
   ],
 };
 
@@ -59,7 +58,7 @@ export const projects: Project[] = [
     title: "Sinsera",
     year: "2025",
     tagline: "School information system, built during Ciptadra Softindo internship",
-    category: "Full-Stack Web",
+    category: "School Management System",
     problem:
       "Schools under Yayasan Asih Putera had no unified system for registration, " +
       "fee collection, and academic records. Each was handled separately.",
@@ -76,7 +75,7 @@ export const projects: Project[] = [
     title: "Sinaira",
     year: "2026",
     tagline: "Spa automation platform for a real client across 3 locations",
-    category: "Full-Stack Web",
+    category: "Spa Operations Platform",
     problem:
       "Senaira managed bookings, payments, and therapist assignments manually " +
       "through WhatsApp. Payments were frequently missed, stock was hard to " +
@@ -96,7 +95,7 @@ export const projects: Project[] = [
     title: "Sales Dashboard",
     year: "2026",
     tagline: "Sales analytics dashboard at Telkom International",
-    category: "Data Analytics",
+    category: "Analytics Dashboard",
     problem:
       "No centralised view for sales performance. Pricing trends and customer " +
       "retention were tracked through manual spreadsheet exports.",
@@ -115,7 +114,7 @@ export const projects: Project[] = [
     title: "TravelAPAP",
     year: "2025",
     tagline: "Multi-service travel platform with microservice architecture",
-    category: "Microservices",
+    category: "Travel Booking Platform",
     problem: "",
     contribution:
       "A travel booking platform for flights, activities, and tour packages, " +
@@ -135,7 +134,7 @@ export const projects: Project[] = [
     title: "PeduliLingkungan",
     year: "2025",
     tagline: "Citizen environmental reporting platform",
-    category: "Full-Stack Web",
+    category: "Civic Reporting App",
     problem: "",
     contribution:
       "A platform for citizens to report environmental violations like illegal " +
@@ -151,7 +150,7 @@ export const projects: Project[] = [
     title: "Petclinic",
     year: "2025",
     tagline: "Pet health management system for owners, doctors, and clinics",
-    category: "Full-Stack Web",
+    category: "Clinic Management App",
     problem: "",
     contribution:
       "A clinic app where pet owners book visits, vets log prescriptions and notes, " +
@@ -167,7 +166,7 @@ export const projects: Project[] = [
     title: "Makan Bang",
     year: "2024",
     tagline: "Food and drink finder app for Jakarta",
-    category: "Full-Stack Web",
+    category: "Food Discovery App",
     problem: "",
     contribution:
       "A directory app for finding food and drink options around Jakarta " +

@@ -21,14 +21,13 @@ function hasLink(url: string): boolean {
   return Boolean(url && !url.startsWith("[insert"));
 }
 
-function ProjectCard({ p, index }: { p: Project; index: number }) {
+function ProjectCard({ p }: { p: Project }) {
   const hasImage = Boolean(p.image && !String(p.image).startsWith("[insert"));
-  const reverse = index % 2 === 1;
   const validRepos = p.repos.filter((r) => hasLink(r.url));
 
   return (
     <Reveal>
-      <article className={reverse ? "project reverse" : "project"}>
+      <article className="project">
 
         {/* Info side */}
         <div className={hasImage ? "project-info" : "project-info project-info-full"}>
@@ -107,8 +106,8 @@ export default function Projects() {
           <p className="section-label">Selected Work</p>
         </Reveal>
         <div className="projects-list">
-          {projects.map((p, i) => (
-            <ProjectCard p={p} index={i} key={p.title} />
+          {projects.map((p) => (
+            <ProjectCard p={p} key={p.title} />
           ))}
         </div>
       </div>

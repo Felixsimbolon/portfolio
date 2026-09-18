@@ -482,9 +482,6 @@ a {
     gap: 3.5rem;
     align-items: center;
   }
-  .project.reverse .project-visual {
-    order: -1;
-  }
 }
 
 .project-head {

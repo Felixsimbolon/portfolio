@@ -886,12 +886,6 @@ a {
   max-width: 680px;
 }
 
-@media (min-width: 860px) {
-  .project.reverse .project-info-full {
-    justify-self: end;
-  }
-}
-
 /* ── Project action buttons (below stack) ─────────────────── */
 
 .project-actions {

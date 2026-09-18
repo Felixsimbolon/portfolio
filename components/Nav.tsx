@@ -46,7 +46,6 @@ export default function Nav() {
           <div className="nav-links hide-mobile">
             <a href="#work">work</a>
             <a href="#about">about</a>
-            <a href="#experience">experience</a>
             <a href="#skills">skills</a>
             <a href="#contact">contact</a>
           </div>

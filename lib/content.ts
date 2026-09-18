@@ -29,7 +29,7 @@ export const about = {
     { label: "Goal",       value: "Building software that ships to real users" },
   ],
   stats: [
-    { value: "8",      label: "Projects shipped"       },
+    { value: "10",     label: "Projects shipped"       },
     { value: "3.90",   label: "GPA at Fasilkom UI"      },
   ],
 };
@@ -51,6 +51,39 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    title: "CKB Knowledge Base Chatbot",
+    year: "Jun 2026 – Present",
+    tagline: "Internal document assistant built as an AI Engineer Intern at ABM Investama",
+    category: "RAG Knowledge Assistant",
+    problem:
+      "Employees need answers grounded in SharePoint policies, SOPs, and operational documents.",
+    contribution:
+      "Built a RAG chatbot using Python and Flask, streaming responses through Server-Sent Events. " +
+      "Implemented document ingestion and change detection, hybrid reranking, document deduplication, and source citations.",
+    impact:
+      "Makes internal information easier to access, with relevance safeguards that reject unsupported answers.",
+    stack: ["Python", "Flask", "RAG", "SSE", "SharePoint"],
+    image: null, liveUrl: "", repos: [],
+    featured: true, showMeta: true,
+  },
+  {
+    title: "Road Intelligence",
+    year: "Jun 2026 – Present",
+    tagline: "Mining-site computer vision built as an AI Engineer Intern at ABM Investama",
+    category: "Computer Vision",
+    problem:
+      "Low-resolution images made road damage, including rutting, difficult to detect reliably at mining sites.",
+    contribution:
+      "Developed a YOLOv9 model to detect heavy equipment and road damage. " +
+      "Cleaned and curated image data and trained the model using Stochastic Gradient Descent.",
+    impact:
+      "Improved mAP@50 from 0.60 to 0.80 and achieved an F1 score of 0.88, " +
+      "with estimated maintenance savings of US$60K through earlier damage detection.",
+    stack: ["Python", "YOLOv9", "Computer Vision", "Object Detection", "SGD"],
+    image: null, liveUrl: "", repos: [],
+    featured: true, showMeta: true,
+  },
 
   // ── TOP: showMeta projects (Sinsera, Sinaira, Dashboard) ────
 
